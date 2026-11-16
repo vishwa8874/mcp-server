@@ -1,0 +1,21 @@
+{
+    "mcpServers": {
+      "filesystem": {
+        "command": "npx",
+        "args": [
+          "-y",
+          "@modelcontextprotocol/server-filesystem",
+          "\\ecom_cmp\\Multivendor-Ecommerce-Website-with-Django_-Django-Restframework-and-ReactJs-main" 
+        ]
+      },
+      "devto-platform": {
+          "command": "/Library/Frameworks/Python.framework/Versions/3.11/bin/uv",
+          "args": [
+            "--directory",
+            "C:\\Users\\91960\\OneDrive\\Documents\\mcp",
+            "run",
+            "dev_server.py"
+          ]
+    }
+  }
+}
